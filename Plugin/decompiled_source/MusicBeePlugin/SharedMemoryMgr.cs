@@ -70,7 +70,7 @@ namespace MusicBeePlugin
 					result = new LRUShort(this.mmfId, num3).lr;
 					return result;
 				}
-				num3 = current.Key + current.Value;
+				num3 = (ushort)(current.Key + current.Value);
 				num4 = (long)((ulong)num3 + (ulong)num);
 			}
 			if (num4 < 10240L)
